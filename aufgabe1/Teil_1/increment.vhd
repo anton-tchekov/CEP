@@ -18,7 +18,7 @@ entity increment is
 		clk    : in  std_logic;
 		rstn   : in  std_logic;
 		addend : in  std_logic_vector(7 downto 0);
-		result : out std_logic_vector(7 downto 0);
+		result : out std_logic_vector(7 downto 0) -- Fehler 3
 	);
 end increment;
 
